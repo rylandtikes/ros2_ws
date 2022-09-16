@@ -1,0 +1,19 @@
+[0.962s] Invoking command in '/home/ubuntu/ros2_ws/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client --editable --build-directory /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client
+[1.331s] running develop
+[1.553s] running egg_info
+[1.553s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[1.553s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[1.554s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[1.554s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[1.554s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[1.597s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.598s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.646s] running build_ext
+[1.646s] Creating /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[1.648s] Installing client script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.648s] Installing client_cancel script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.648s] Installing client_not_composable script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.649s] 
+[1.649s] Installed /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_action_client
+[1.649s] running install_data
+[1.684s] Invoked command in '/home/ubuntu/ros2_ws/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client --editable --build-directory /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client

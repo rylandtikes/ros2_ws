@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/build/examples_rclcpp_async_client
+[35m[1mScanning dependencies of target client_main[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:46:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’} has no member named ‘[01m[Kprune_requests_older_than[m[K’
+   46 |         size_t n_pruned = this->client_->[01;31m[Kprune_requests_older_than[m[K(
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:24[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::queue_async_request(int64_t, int64_t)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:103:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >[m[K’ has no member named ‘[01m[Krequest_id[m[K’
+  103 |       result.[01;31m[Krequest_id[m[K);
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+  123 | std::[01;31m[Koptional[m[K<int64_t>
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:123:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+  123 | [01;36m[Kstd[m[K::optional<int64_t>
+      | [01;36m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:171:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::executors::SingleThreadedExecutor::spin_until_future_complete(const std::future<void>&)[m[K’
+  171 |       executor.spin_until_future_complete(stop_token[01;31m[K)[m[K;
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:24[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:194:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ResponseT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::Executor::spin_until_future_complete(const std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)[m[K’
+  194 |   [01;36m[Kspin_until_future_complete[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:194:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:171:53:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::future<void>[m[K’ is not derived from ‘[01m[Kconst std::shared_future<_Res>[m[K’
+  171 |       executor.spin_until_future_complete(stop_token[01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:175:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_number[m[K’ was not declared in this scope; did you mean ‘[01m[Kread_more[m[K’?
+  175 |     auto optional_number = [01;31m[Kread_number[m[K(buffer, logger);
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+      |                            [32m[Kread_more[m[K
+make[2]: *** [CMakeFiles/client_main.dir/build.make:63: CMakeFiles/client_main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/client_main.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

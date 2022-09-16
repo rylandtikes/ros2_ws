@@ -1,0 +1,19 @@
+[1.195s] Invoking command in '/home/ubuntu/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber
+[1.534s] running develop
+[1.758s] running egg_info
+[1.758s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[1.759s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[1.759s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[1.759s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[1.759s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[1.802s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.803s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.851s] running build_ext
+[1.851s] Creating /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[1.853s] Installing subscriber_lambda script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.853s] Installing subscriber_member_function script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.853s] Installing subscriber_old_school script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.854s] 
+[1.854s] Installed /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_subscriber
+[1.854s] running install_data
+[1.888s] Invoked command in '/home/ubuntu/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber

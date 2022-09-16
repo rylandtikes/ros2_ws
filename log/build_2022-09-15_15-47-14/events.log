@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.001173] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.001238] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.001283] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001324] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.001363] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.001402] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.001441] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001478] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.001515] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001552] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.001590] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.001627] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.001669] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.001707] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.001745] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001782] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.001819] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.001857] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001895] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.001940] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001979] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.002083] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.002126] (ros2_course_cpp) JobQueued: {'identifier': 'ros2_course_cpp', 'dependencies': OrderedDict()}
+[0.002165] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.029555] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.044736] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'cmake'}
+[0.046918] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'build'}
+[0.048124] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '97.117.4.205 49664 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_course_cpp:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '97.117.4.205 49664 172.31.15.142 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_course_cpp:/opt/ros/foxy')]), 'shell': False}
+[0.054767] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.056873] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'build'}
+[0.058642] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/examples_rclcpp_cbg_executor', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/ros2_ws/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '97.117.4.205 49664 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_course_cpp:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/examples_rclcpp_cbg_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '97.117.4.205 49664 172.31.15.142 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/ros2_course_cpp:/opt/ros/foxy')]), 'shell': False}
+[0.099387] (-) TimerEvent: {}
+[0.199853] (-) TimerEvent: {}
+[0.277723] (examples_rclcpp_async_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o\x1b[0m\n'}
+[0.296183] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o\x1b[0m\n'}
+[0.299999] (-) TimerEvent: {}
+[0.300822] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o\x1b[0m\n'}
+[0.400194] (-) TimerEvent: {}
+[0.500638] (-) TimerEvent: {}
+[0.601066] (-) TimerEvent: {}
+[0.701504] (-) TimerEvent: {}
+[0.801949] (-) TimerEvent: {}
+[0.902436] (-) TimerEvent: {}
+[1.002884] (-) TimerEvent: {}
+[1.103462] (-) TimerEvent: {}
+[1.204062] (-) TimerEvent: {}
+[1.304653] (-) TimerEvent: {}
+[1.405227] (-) TimerEvent: {}
+[1.505782] (-) TimerEvent: {}
+[1.606402] (-) TimerEvent: {}
+[1.706980] (-) TimerEvent: {}
+[1.807569] (-) TimerEvent: {}
+[1.908136] (-) TimerEvent: {}
+[2.008725] (-) TimerEvent: {}
+[2.109298] (-) TimerEvent: {}
+[2.209869] (-) TimerEvent: {}
+[2.310481] (-) TimerEvent: {}
+[2.411092] (-) TimerEvent: {}
+[2.511707] (-) TimerEvent: {}
+[2.612303] (-) TimerEvent: {}
+[2.712907] (-) TimerEvent: {}
+[2.813512] (-) TimerEvent: {}
+[2.914104] (-) TimerEvent: {}
+[2.982256] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.982548] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:46:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kprune_requests_older_than\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.982684] (examples_rclcpp_async_client) StderrLine: {'line': b'   46 |         size_t n_pruned = this->client_->\x1b[01;31m\x1b[Kprune_requests_older_than\x1b[m\x1b[K(\n'}
+[2.982794] (examples_rclcpp_async_client) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.014277] (-) TimerEvent: {}
+[3.034980] (examples_rclcpp_async_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.035226] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.035333] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.035431] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[3.035523] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.035614] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.035704] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[3.035793] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.035885] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.035975] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.036063] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:24\x1b[m\x1b[K:\n'}
+[3.036152] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ClientNode::queue_async_request(int64_t, int64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.036265] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:103:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Krequest_id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.036366] (examples_rclcpp_async_client) StderrLine: {'line': b'  103 |       result.\x1b[01;31m\x1b[Krequest_id\x1b[m\x1b[K);\n'}
+[3.036456] (examples_rclcpp_async_client) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.039171] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.039320] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:123:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koptional\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[3.039442] (examples_rclcpp_async_client) StderrLine: {'line': b'  123 | std::\x1b[01;31m\x1b[Koptional\x1b[m\x1b[K<int64_t>\n'}
+[3.039537] (examples_rclcpp_async_client) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.046118] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:123:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::optional\x1b[m\x1b[K\xe2\x80\x99 is only available from C++17 onwards\n'}
+[3.046350] (examples_rclcpp_async_client) StderrLine: {'line': b'  123 | \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::optional<int64_t>\n'}
+[3.046456] (examples_rclcpp_async_client) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.062131] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.062459] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:171:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::executors::SingleThreadedExecutor::spin_until_future_complete(const std::future<void>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.062635] (examples_rclcpp_async_client) StderrLine: {'line': b'  171 |       executor.spin_until_future_complete(stop_token\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.062817] (examples_rclcpp_async_client) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.063042] (examples_rclcpp_async_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.063153] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.063245] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.063335] (examples_rclcpp_async_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:24\x1b[m\x1b[K:\n'}
+[3.063426] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:194:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ResponseT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::Executor::spin_until_future_complete(const std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.063540] (examples_rclcpp_async_client) StderrLine: {'line': b'  194 |   \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[3.063631] (examples_rclcpp_async_client) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.063718] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:194:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.063806] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:171:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::future<void>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_future<_Res>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.063901] (examples_rclcpp_async_client) StderrLine: {'line': b'  171 |       executor.spin_until_future_complete(stop_token\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.063987] (examples_rclcpp_async_client) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.066224] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.066454] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:175:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kread_number\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kread_more\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.066562] (examples_rclcpp_async_client) StderrLine: {'line': b'  175 |     auto optional_number = \x1b[01;31m\x1b[Kread_number\x1b[m\x1b[K(buffer, logger);\n'}
+[3.066663] (examples_rclcpp_async_client) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.066755] (examples_rclcpp_async_client) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kread_more\x1b[m\x1b[K\n'}
+[3.106131] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.106383] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp:58:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::executors::SingleThreadedExecutor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_callback_group\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.106502] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'   58 |   high_prio_executor.\x1b[01;31m\x1b[Kadd_callback_group\x1b[m\x1b[K(\n'}
+[3.106605] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.114414] (-) TimerEvent: {}
+[3.118296] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp:60:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::executors::SingleThreadedExecutor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_callback_group\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.118454] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'   60 |   low_prio_executor.\x1b[01;31m\x1b[Kadd_callback_group\x1b[m\x1b[K(\n'}
+[3.118557] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.214611] (-) TimerEvent: {}
+[3.315207] (-) TimerEvent: {}
+[3.384497] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.384736] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp:64:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::executors::SingleThreadedExecutor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_callback_group\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.384846] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'   64 |   high_prio_executor.\x1b[01;31m\x1b[Kadd_callback_group\x1b[m\x1b[K(\n'}
+[3.384943] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.385098] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp:66:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::executors::SingleThreadedExecutor\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_callback_group\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.385216] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'   66 |   low_prio_executor.\x1b[01;31m\x1b[Kadd_callback_group\x1b[m\x1b[K(\n'}
+[3.385308] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.415385] (-) TimerEvent: {}
+[3.515973] (-) TimerEvent: {}
+[3.616559] (-) TimerEvent: {}
+[3.717145] (-) TimerEvent: {}
+[3.817678] (-) TimerEvent: {}
+[3.918273] (-) TimerEvent: {}
+[3.986405] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pong.dir/build.make:63: CMakeFiles/pong.dir/src/pong.cpp.o] Error 1\n'}
+[3.987062] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pong.dir/all] Error 2\n'}
+[3.987203] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[4.018441] (-) TimerEvent: {}
+[4.026191] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o\x1b[0m\n'}
+[4.069334] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ping_pong.dir/build.make:63: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o] Error 1\n'}
+[4.069568] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[4.118614] (-) TimerEvent: {}
+[4.219063] (-) TimerEvent: {}
+[4.319467] (-) TimerEvent: {}
+[4.419879] (-) TimerEvent: {}
+[4.452208] (examples_rclcpp_async_client) StderrLine: {'line': b'make[2]: *** [CMakeFiles/client_main.dir/build.make:63: CMakeFiles/client_main.dir/main.cpp.o] Error 1\n'}
+[4.452499] (examples_rclcpp_async_client) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/client_main.dir/all] Error 2\n'}
+[4.452660] (examples_rclcpp_async_client) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.455001] (examples_rclcpp_async_client) CommandEnded: {'returncode': 2}
+[4.520734] (-) TimerEvent: {}
+[4.528209] (examples_rclcpp_async_client) JobEnded: {'identifier': 'examples_rclcpp_async_client', 'rc': 2}
+[4.620903] (-) TimerEvent: {}
+[4.721442] (-) TimerEvent: {}
+[4.822024] (-) TimerEvent: {}
+[4.922609] (-) TimerEvent: {}
+[5.023221] (-) TimerEvent: {}
+[5.123792] (-) TimerEvent: {}
+[5.224370] (-) TimerEvent: {}
+[5.324918] (-) TimerEvent: {}
+[5.425497] (-) TimerEvent: {}
+[5.526079] (-) TimerEvent: {}
+[5.626649] (-) TimerEvent: {}
+[5.727186] (-) TimerEvent: {}
+[5.827746] (-) TimerEvent: {}
+[5.928304] (-) TimerEvent: {}
+[6.028881] (-) TimerEvent: {}
+[6.129464] (-) TimerEvent: {}
+[6.230048] (-) TimerEvent: {}
+[6.330600] (-) TimerEvent: {}
+[6.431164] (-) TimerEvent: {}
+[6.531749] (-) TimerEvent: {}
+[6.632322] (-) TimerEvent: {}
+[6.732903] (-) TimerEvent: {}
+[6.833504] (-) TimerEvent: {}
+[6.934086] (-) TimerEvent: {}
+[7.034687] (-) TimerEvent: {}
+[7.135290] (-) TimerEvent: {}
+[7.235859] (-) TimerEvent: {}
+[7.336454] (-) TimerEvent: {}
+[7.437046] (-) TimerEvent: {}
+[7.537640] (-) TimerEvent: {}
+[7.638249] (-) TimerEvent: {}
+[7.738847] (-) TimerEvent: {}
+[7.839416] (-) TimerEvent: {}
+[7.939981] (-) TimerEvent: {}
+[8.040543] (-) TimerEvent: {}
+[8.141104] (-) TimerEvent: {}
+[8.241655] (-) TimerEvent: {}
+[8.342259] (-) TimerEvent: {}
+[8.442800] (-) TimerEvent: {}
+[8.543344] (-) TimerEvent: {}
+[8.643962] (-) TimerEvent: {}
+[8.744519] (-) TimerEvent: {}
+[8.845089] (-) TimerEvent: {}
+[8.945655] (-) TimerEvent: {}
+[9.046236] (-) TimerEvent: {}
+[9.146823] (-) TimerEvent: {}
+[9.247392] (-) TimerEvent: {}
+[9.347967] (-) TimerEvent: {}
+[9.448587] (-) TimerEvent: {}
+[9.549182] (-) TimerEvent: {}
+[9.649750] (-) TimerEvent: {}
+[9.750344] (-) TimerEvent: {}
+[9.850908] (-) TimerEvent: {}
+[9.951468] (-) TimerEvent: {}
+[10.052025] (-) TimerEvent: {}
+[10.152581] (-) TimerEvent: {}
+[10.253035] (-) TimerEvent: {}
+[10.353609] (-) TimerEvent: {}
+[10.454186] (-) TimerEvent: {}
+[10.516886] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/ping_pong.dir/all] Error 2\n'}
+[10.518099] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.519166] (examples_rclcpp_cbg_executor) JobEnded: {'identifier': 'examples_rclcpp_cbg_executor', 'rc': 'SIGINT'}
+[10.520642] (examples_rclcpp_minimal_action_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[10.520687] (examples_rclcpp_minimal_action_server) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[10.520717] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[10.520744] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[10.520770] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[10.520795] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[10.520819] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[10.520843] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[10.520868] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[10.520892] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[10.520917] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[10.520941] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[10.520965] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[10.520990] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[10.521014] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[10.521038] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[10.521062] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[10.521086] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[10.521110] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[10.521134] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[10.521158] (ros2_course_cpp) JobSkipped: {'identifier': 'ros2_course_cpp'}
+[10.521182] (-) EventReactorShutdown: {}

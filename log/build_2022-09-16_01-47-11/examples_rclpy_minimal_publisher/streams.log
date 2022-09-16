@@ -1,0 +1,19 @@
+[0.978s] Invoking command in '/home/ubuntu/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher
+[1.323s] running develop
+[1.528s] running egg_info
+[1.529s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.529s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.529s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.530s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.530s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.571s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.572s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.619s] running build_ext
+[1.620s] Creating /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.621s] Installing publisher_local_function script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.621s] Installing publisher_member_function script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.622s] Installing publisher_old_school script to /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.622s] 
+[1.622s] Installed /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_publisher
+[1.622s] running install_data
+[1.657s] Invoked command in '/home/ubuntu/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher --editable --build-directory /home/ubuntu/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher

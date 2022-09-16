@@ -1,0 +1,12 @@
+[0.937s] Invoking command in '/home/ubuntu/ros2_ws/src/build/ros2_course_python': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/ros2_course_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/src/install/ros2_course_python --editable --build-directory /home/ubuntu/ros2_ws/src/build/ros2_course_python/build --no-deps
+[1.290s] running develop
+[1.495s] running egg_info
+[1.495s] creating ros2_course_python.egg-info
+[1.496s] writing ros2_course_python.egg-info/PKG-INFO
+[1.496s] writing dependency_links to ros2_course_python.egg-info/dependency_links.txt
+[1.496s] writing entry points to ros2_course_python.egg-info/entry_points.txt
+[1.496s] writing requirements to ros2_course_python.egg-info/requires.txt
+[1.496s] writing top-level names to ros2_course_python.egg-info/top_level.txt
+[1.498s] writing manifest file 'ros2_course_python.egg-info/SOURCES.txt'
+[1.538s] error: package directory 'ros2_course_python' does not exist
+[1.562s] Invoked command in '/home/ubuntu/ros2_ws/src/build/ros2_course_python' returned '1': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/ros2_course_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/src/install/ros2_course_python --editable --build-directory /home/ubuntu/ros2_ws/src/build/ros2_course_python/build --no-deps

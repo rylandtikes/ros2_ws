@@ -1,0 +1,18 @@
+[0.984s] Invoking command in '/home/ubuntu/ros2_ws/src/build/examples_rclpy_minimal_service': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service --editable --build-directory /home/ubuntu/ros2_ws/src/build/examples_rclpy_minimal_service/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service
+[1.350s] running develop
+[1.574s] running egg_info
+[1.574s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[1.575s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[1.575s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[1.576s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[1.576s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[1.621s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.622s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.672s] running build_ext
+[1.672s] Creating /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[1.674s] Installing service script to /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.674s] Installing service_member_function script to /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.675s] 
+[1.675s] Installed /home/ubuntu/ros2_ws/src/build/examples_rclpy_minimal_service
+[1.675s] running install_data
+[1.710s] Invoked command in '/home/ubuntu/ros2_ws/src/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service --editable --build-directory /home/ubuntu/ros2_ws/src/build/examples_rclpy_minimal_service/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/src/install/examples_rclpy_minimal_service

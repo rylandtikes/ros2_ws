@@ -1,0 +1,12 @@
+[0.940s] Invoking command in '/home/ubuntu/ros2_ws/src/build/ros2_course_python': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/ros2_course_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/src/install/ros2_course_python --uninstall --editable --build-directory /home/ubuntu/ros2_ws/src/build/ros2_course_python/build
+[1.280s] running develop
+[1.518s] Invoked command in '/home/ubuntu/ros2_ws/src/build/ros2_course_python' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/ros2_course_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/src/install/ros2_course_python --uninstall --editable --build-directory /home/ubuntu/ros2_ws/src/build/ros2_course_python/build
+[1.522s] Invoking command in '/home/ubuntu/ros2_ws/src/ros2_course_python': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/ros2_course_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_course_python build --build-base /home/ubuntu/ros2_ws/src/build/ros2_course_python/build install --prefix /home/ubuntu/ros2_ws/src/install/ros2_course_python --record /home/ubuntu/ros2_ws/src/build/ros2_course_python/install.log --single-version-externally-managed
+[1.836s] running egg_info
+[1.837s] writing ../build/ros2_course_python/ros2_course_python.egg-info/PKG-INFO
+[1.837s] writing dependency_links to ../build/ros2_course_python/ros2_course_python.egg-info/dependency_links.txt
+[1.838s] writing entry points to ../build/ros2_course_python/ros2_course_python.egg-info/entry_points.txt
+[1.838s] writing requirements to ../build/ros2_course_python/ros2_course_python.egg-info/requires.txt
+[1.838s] writing top-level names to ../build/ros2_course_python/ros2_course_python.egg-info/top_level.txt
+[1.881s] error: package directory 'ros2_course_python' does not exist
+[1.901s] Invoked command in '/home/ubuntu/ros2_ws/src/ros2_course_python' returned '1': PYTHONPATH=/home/ubuntu/ros2_ws/src/install/ros2_course_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_course_python build --build-base /home/ubuntu/ros2_ws/src/build/ros2_course_python/build install --prefix /home/ubuntu/ros2_ws/src/install/ros2_course_python --record /home/ubuntu/ros2_ws/src/build/ros2_course_python/install.log --single-version-externally-managed

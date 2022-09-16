@@ -1,0 +1,105 @@
+[0.032s] Invoking command in '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/examples_rclcpp_async_client
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.180s] -- The CXX compiler identification is GNU 9.4.0
+[0.185s] -- Check for working C compiler: /usr/bin/cc
+[0.272s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.272s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.371s] -- Detecting C compile features
+[0.371s] -- Detecting C compile features - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.476s] -- Detecting CXX compiler ABI info
+[0.576s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.626s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.626s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.864s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.896s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.040s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.076s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.412s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.470s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.474s] -- Looking for pthread.h
+[1.563s] -- Looking for pthread.h - found
+[1.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.655s] -- Looking for pthread_create in pthreads
+[1.728s] -- Looking for pthread_create in pthreads - not found
+[1.728s] -- Looking for pthread_create in pthread
+[1.813s] -- Looking for pthread_create in pthread - found
+[1.815s] -- Found Threads: TRUE  
+[2.026s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.126s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.127s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.127s] -- Configured cppcheck include dirs: 
+[2.127s] -- Configured cppcheck exclude dirs and/or files: 
+[2.128s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.128s] -- Configured cpplint exclude dirs and/or files: 
+[2.129s] -- Added test 'lint_cmake' to check CMake code style
+[2.130s] -- Added test 'uncrustify' to check C / C++ code style
+[2.130s] -- Configured uncrustify additional arguments: 
+[2.130s] -- Added test 'xmllint' to check XML markup files
+[2.135s] -- Configuring done
+[2.146s] -- Generating done
+[2.148s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/examples_rclcpp_async_client
+[2.159s] Invoked command in '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/examples_rclcpp_async_client
+[2.162s] Invoking command in '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/examples_rclcpp_async_client -- -j2 -l2
+[2.215s] [35m[1mScanning dependencies of target client_main[0m
+[2.305s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[4.689s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In lambda function:
+[4.691s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:46:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’} has no member named ‘[01m[Kprune_requests_older_than[m[K’
+[4.691s]    46 |         size_t n_pruned = this->client_->[01;31m[Kprune_requests_older_than[m[K(
+[4.691s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.748s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[4.748s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.748s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.748s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.748s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.748s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.749s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.749s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.749s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.749s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.749s]                  from [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:24[m[K:
+[4.749s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::queue_async_request(int64_t, int64_t)[m[K’:
+[4.750s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:103:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_future<std::pair<std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > >[m[K’ has no member named ‘[01m[Krequest_id[m[K’
+[4.750s]   103 |       result.[01;31m[Krequest_id[m[K);
+[4.750s]       |              [01;31m[K^~~~~~~~~~[m[K
+[4.751s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K At global scope:
+[4.751s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[4.752s]   123 | std::[01;31m[Koptional[m[K<int64_t>
+[4.752s]       |      [01;31m[K^~~~~~~~[m[K
+[4.752s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:123:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+[4.752s]   123 | [01;36m[Kstd[m[K::optional<int64_t>
+[4.752s]       | [01;36m[K^~~[m[K
+[4.760s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In lambda function:
+[4.760s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:171:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::executors::SingleThreadedExecutor::spin_until_future_complete(const std::future<void>&)[m[K’
+[4.760s]   171 |       executor.spin_until_future_complete(stop_token[01;31m[K)[m[K;
+[4.760s]       |                                                     [01;31m[K^[m[K
+[4.760s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.761s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.761s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.761s]                  from [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:24[m[K:
+[4.761s] [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:194:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ResponseT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::Executor::spin_until_future_complete(const std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)[m[K’
+[4.761s]   194 |   [01;36m[Kspin_until_future_complete[m[K(
+[4.761s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.762s] [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:194:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.762s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:171:53:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::future<void>[m[K’ is not derived from ‘[01m[Kconst std::shared_future<_Res>[m[K’
+[4.762s]   171 |       executor.spin_until_future_complete(stop_token[01;36m[K)[m[K;
+[4.762s]       |                                                     [01;36m[K^[m[K
+[4.766s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.766s] [01m[K/home/ubuntu/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp:175:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kread_number[m[K’ was not declared in this scope; did you mean ‘[01m[Kread_more[m[K’?
+[4.766s]   175 |     auto optional_number = [01;31m[Kread_number[m[K(buffer, logger);
+[4.766s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[4.766s]       |                            [32m[Kread_more[m[K
+[6.292s] make[2]: *** [CMakeFiles/client_main.dir/build.make:63: CMakeFiles/client_main.dir/main.cpp.o] Error 1
+[6.292s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/client_main.dir/all] Error 2
+[6.292s] make: *** [Makefile:141: all] Error 2
+[6.297s] Invoked command in '/home/ubuntu/ros2_ws/build/examples_rclcpp_async_client' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/examples_rclcpp_async_client -- -j2 -l2

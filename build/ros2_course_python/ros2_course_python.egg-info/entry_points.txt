@@ -1,0 +1,3 @@
+[console_scripts]
+talker_py_node = talker:main
+
