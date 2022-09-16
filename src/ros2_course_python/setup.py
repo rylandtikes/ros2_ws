@@ -10,9 +10,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     author='Charles Stolz',
-    author_email='charles.stolz@torc.ai',
+    author_email='charles.stolz@protonmail.com',
     maintainer='Charles Stolz',
-    maintainer_email='charles.stolz@torc.ai',
+    maintainer_email='charles.stolz@protonmail.com',
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
