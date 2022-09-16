@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install("TARGETS" "talker_node_cpp" "DESTINATION" "lib/ros2_course_cpp")
+include("/home/ubuntu/ros2_ws/build/ros2_course_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/ubuntu/ros2_ws/build/ros2_course_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_course_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ubuntu/ros2_ws/src/ros2_course_cpp" FILES "/home/ubuntu/ros2_ws/build/ros2_course_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_course_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

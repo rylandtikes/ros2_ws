@@ -5,5 +5,6 @@
 /home/ubuntu/ros2_ws/build/ros2_course_cpp/CMakeFiles/rebuild_cache.dir
 /home/ubuntu/ros2_ws/build/ros2_course_cpp/CMakeFiles/edit_cache.dir
 /home/ubuntu/ros2_ws/build/ros2_course_cpp/CMakeFiles/test.dir
+/home/ubuntu/ros2_ws/build/ros2_course_cpp/CMakeFiles/talker_node_cpp.dir
 /home/ubuntu/ros2_ws/build/ros2_course_cpp/CMakeFiles/ros2_course_cpp_uninstall.dir
 /home/ubuntu/ros2_ws/build/ros2_course_cpp/CMakeFiles/uninstall.dir

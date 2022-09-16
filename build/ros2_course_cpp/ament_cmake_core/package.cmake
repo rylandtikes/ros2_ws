@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "ros2_course_cpp")
-set(ros2_course_cpp_VERSION "0.0.0")
-set(ros2_course_cpp_MAINTAINER "ubuntu <ubuntu@todo.todo>")
+set(ros2_course_cpp_VERSION "0.0.1")
+set(ros2_course_cpp_MAINTAINER "ubuntu <charles.stolz@protonmail.com>")
 set(ros2_course_cpp_BUILD_DEPENDS "std_msgs" "rclcpp" "geometry_msgs")
 set(ros2_course_cpp_BUILDTOOL_DEPENDS "ament_cmake")
 set(ros2_course_cpp_BUILD_EXPORT_DEPENDS "std_msgs" "rclcpp" "geometry_msgs")

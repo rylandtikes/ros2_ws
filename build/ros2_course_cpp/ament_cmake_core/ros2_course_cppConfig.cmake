@@ -16,7 +16,7 @@ set(_ros2_course_cpp_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ros2_course_cpp_FIND_QUIETLY)
-  message(STATUS "Found ros2_course_cpp: 0.0.0 (${ros2_course_cpp_DIR})")
+  message(STATUS "Found ros2_course_cpp: 0.0.1 (${ros2_course_cpp_DIR})")
 endif()
 
 # warn when using a deprecated package
